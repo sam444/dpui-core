@@ -1,0 +1,29 @@
+{
+  "name": "rainbowui-core",
+  "version": "2.2.7",
+  "description": "RainbowUI Core",
+  "main": "./src/index.js",
+  "keywords": [],
+  "author": "RainbowUI Team",
+  "license": "MIT",
+  "scripts": {
+    "doc": "jsdoc2md document/**/*.js > ../../other/developers/src/doc/core/doc/README.md"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "rainbow-foundation-cache": "^2.0.0",
+    "rainbow-foundation-codetable": "^2.0.0",
+    "rainbow-foundation-tools": "^2.0.0",
+    "prop-types": "^15.6.0"
+  },
+  "publishConfig": {
+    "registry": "http://repo.ebaotech.com/artifactory/api/npm/npm-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://oss.ebaotech.com/rainbow-ui/core.git"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^3.0.0"
+  }
+}
